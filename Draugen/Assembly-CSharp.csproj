@@ -65,12 +65,14 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Client.cs" />
     <Compile Include="Assets\Scripts\ClientHandle.cs" />
+    <Compile Include="Assets\Scripts\ClientSend.cs" />
     <Compile Include="Assets\Scripts\CrouchCapsule.cs" />
     <Compile Include="Assets\Scripts\GunScript.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\MouseLook.cs" />
     <Compile Include="Assets\Scripts\Packet.cs" />
     <Compile Include="Assets\Scripts\PauseGame.cs" />
+    <Compile Include="Assets\Scripts\PlayerManager.cs" />
     <Compile Include="Assets\Scripts\PlayerMovementScript.cs" />
     <Compile Include="Assets\Scripts\SettingsMenu.cs" />
     <Compile Include="Assets\Scripts\ShootingTarget.cs" />

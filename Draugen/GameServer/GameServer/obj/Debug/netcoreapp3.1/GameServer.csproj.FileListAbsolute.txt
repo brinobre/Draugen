@@ -4,7 +4,6 @@ D:\Unity\Draugen\Draugen\GameServer\GameServer\bin\Debug\netcoreapp3.1\GameServe
 D:\Unity\Draugen\Draugen\GameServer\GameServer\bin\Debug\netcoreapp3.1\GameServer.runtimeconfig.dev.json
 D:\Unity\Draugen\Draugen\GameServer\GameServer\bin\Debug\netcoreapp3.1\GameServer.dll
 D:\Unity\Draugen\Draugen\GameServer\GameServer\bin\Debug\netcoreapp3.1\GameServer.pdb
-D:\Unity\Draugen\Draugen\GameServer\GameServer\obj\Debug\netcoreapp3.1\GameServer.csprojAssemblyReference.cache
 D:\Unity\Draugen\Draugen\GameServer\GameServer\obj\Debug\netcoreapp3.1\GameServer.csproj.CoreCompileInputs.cache
 D:\Unity\Draugen\Draugen\GameServer\GameServer\obj\Debug\netcoreapp3.1\GameServer.AssemblyInfoInputs.cache
 D:\Unity\Draugen\Draugen\GameServer\GameServer\obj\Debug\netcoreapp3.1\GameServer.AssemblyInfo.cs
