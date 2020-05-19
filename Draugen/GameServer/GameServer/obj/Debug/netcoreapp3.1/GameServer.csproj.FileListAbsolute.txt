@@ -10,3 +10,4 @@ D:\Unity\Draugen\Draugen\GameServer\GameServer\obj\Debug\netcoreapp3.1\GameServe
 D:\Unity\Draugen\Draugen\GameServer\GameServer\obj\Debug\netcoreapp3.1\GameServer.dll
 D:\Unity\Draugen\Draugen\GameServer\GameServer\obj\Debug\netcoreapp3.1\GameServer.pdb
 D:\Unity\Draugen\Draugen\GameServer\GameServer\obj\Debug\netcoreapp3.1\GameServer.genruntimeconfig.cache
+D:\Unity\Draugen\Draugen\GameServer\GameServer\obj\Debug\netcoreapp3.1\GameServer.csprojAssemblyReference.cache
