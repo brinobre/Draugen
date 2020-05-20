@@ -68,19 +68,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\armin\\.nuget\\packages\\": {}
+    "C:\\Users\\jonas\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Unity\\Draugen\\Draugen\\GameServer\\GameServer\\GameServer.csproj",
+      "projectUniqueName": "C:\\Unity\\Draugen\\Draugen\\GameServer\\GameServer\\GameServer.csproj",
       "projectName": "GameServer",
-      "projectPath": "D:\\Unity\\Draugen\\Draugen\\GameServer\\GameServer\\GameServer.csproj",
-      "packagesPath": "C:\\Users\\armin\\.nuget\\packages\\",
-      "outputPath": "D:\\Unity\\Draugen\\Draugen\\GameServer\\GameServer\\obj\\",
+      "projectPath": "C:\\Unity\\Draugen\\Draugen\\GameServer\\GameServer\\GameServer.csproj",
+      "packagesPath": "C:\\Users\\jonas\\.nuget\\packages\\",
+      "outputPath": "C:\\Unity\\Draugen\\Draugen\\GameServer\\GameServer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\armin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jonas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -119,12 +119,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "frameworkReferences": {
-          "Microsoft.NETCore.App": {
-            "privateAssets": "all"
-          }
-        },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

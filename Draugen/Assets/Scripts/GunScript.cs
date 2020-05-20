@@ -16,25 +16,63 @@ public class GunScript : MonoBehaviour
     [SerializeField] private float fireRate = 15;
     [SerializeField] private float nextTimeToFire = 0f;
 
+    [SerializeField] private int maxAmmo = 10;
+    private int currentAmmo;
+    [SerializeField] private float reloadTime = 1f;
+    private bool isReloading = false;
+
+
+    private Animator shootAnim;
+    private Animator reloadAnim;
 
 
     private void Start()
     {
+        shootAnim = GetComponent<Animator>();
+
+            currentAmmo = maxAmmo;
         FireAudio = GetComponent<AudioSource>();
     }
 
 
     void Update()
     {
+
+        if (isReloading)
+            return;
+
+        if (currentAmmo <= 0f)
+        {
+            StartCoroutine(Reload());
+            return;
+        }
+
         if (Input.GetMouseButtonDown(0) && Time.time >= nextTimeToFire)
         {
             nextTimeToFire = Time.time + 1f / fireRate;
             Shoot();
 
             FireAudio.Play();
-
+            
         }
 
+
+
+
+    }
+
+    IEnumerator Reload()
+    {
+        isReloading = true;
+
+        reloadAnim.SetBool("Reloading", true);
+
+        yield return new WaitForSeconds(reloadTime);
+
+        reloadAnim.SetBool("Reloading", false);
+
+        currentAmmo = maxAmmo;
+        isReloading = false;
     }
 
 
@@ -42,6 +80,9 @@ public class GunScript : MonoBehaviour
     {
         ShootLight.Play();
 
+        shootAnim.SetTrigger("FireTrigg");
+
+        currentAmmo--;
 
         RaycastHit hit;
         if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range))
