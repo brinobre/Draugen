@@ -22,7 +22,7 @@ public class PlayerMovementScript : MonoBehaviour
        
         rb = GetComponent<Rigidbody>();
         Camera.main.enabled = false;
-        cc = GetComponent<CharacterController>();
+        cc.GetComponent<CharacterController>();
         
     }
 

@@ -77,40 +77,40 @@
     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
     <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/Martin/Documents/GitHub/Draugen/Draugen/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>D:/Unity/Draugen/Draugen/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TerrainTools">
-      <HintPath>C:/Users/Martin/Documents/GitHub/Draugen/Draugen/Library/ScriptAssemblies/Unity.TerrainTools.dll</HintPath>
+      <HintPath>D:/Unity/Draugen/Draugen/Library/ScriptAssemblies/Unity.TerrainTools.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/Martin/Documents/GitHub/Draugen/Draugen/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>D:/Unity/Draugen/Draugen/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/Martin/Documents/GitHub/Draugen/Draugen/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/Unity/Draugen/Draugen/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/Martin/Documents/GitHub/Draugen/Draugen/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>D:/Unity/Draugen/Draugen/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/Martin/Documents/GitHub/Draugen/Draugen/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>D:/Unity/Draugen/Draugen/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/Martin/Documents/GitHub/Draugen/Draugen/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>D:/Unity/Draugen/Draugen/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/Martin/Documents/GitHub/Draugen/Draugen/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>D:/Unity/Draugen/Draugen/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/Martin/Documents/GitHub/Draugen/Draugen/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/Unity/Draugen/Draugen/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TerrainTools.Editor">
-      <HintPath>C:/Users/Martin/Documents/GitHub/Draugen/Draugen/Library/ScriptAssemblies/Unity.TerrainTools.Editor.dll</HintPath>
+      <HintPath>D:/Unity/Draugen/Draugen/Library/ScriptAssemblies/Unity.TerrainTools.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/Martin/Documents/GitHub/Draugen/Draugen/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>D:/Unity/Draugen/Draugen/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.quicksearch">
-      <HintPath>C:/Users/Martin/Documents/GitHub/Draugen/Draugen/Library/ScriptAssemblies/com.unity.quicksearch.dll</HintPath>
+      <HintPath>D:/Unity/Draugen/Draugen/Library/ScriptAssemblies/com.unity.quicksearch.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
