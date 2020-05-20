@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Msc/0rzU8yT8ra83L+sOlOUdj3JJAoblMLlqFVjT2ZMXNdS1CpvkbWLysRw/aZOA/wlIqvk0mbXvYWhyhoF8/A==",
+  "dgSpecHash": "hWic/A2i+fziFA6c72TjfS2xvOyjfgS7T8gN9kV1jiAtltcMF5ep1laqYMurY9fqmAS0H69Gei3WssWTCHDIWg==",
   "success": true,
   "projectFilePath": "D:\\Unity\\Draugen\\Draugen\\GameServer\\GameServer\\GameServer.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\armin\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512"
+  ],
   "logs": []
 }
