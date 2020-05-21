@@ -1,0 +1,13 @@
+D:\Unity\Draugen\Draugen\GameServer\GameServer\bin\Debug\netcoreapp3.0\GameServer.exe
+D:\Unity\Draugen\Draugen\GameServer\GameServer\bin\Debug\netcoreapp3.0\GameServer.deps.json
+D:\Unity\Draugen\Draugen\GameServer\GameServer\bin\Debug\netcoreapp3.0\GameServer.runtimeconfig.json
+D:\Unity\Draugen\Draugen\GameServer\GameServer\bin\Debug\netcoreapp3.0\GameServer.runtimeconfig.dev.json
+D:\Unity\Draugen\Draugen\GameServer\GameServer\bin\Debug\netcoreapp3.0\GameServer.dll
+D:\Unity\Draugen\Draugen\GameServer\GameServer\bin\Debug\netcoreapp3.0\GameServer.pdb
+D:\Unity\Draugen\Draugen\GameServer\GameServer\obj\Debug\netcoreapp3.0\GameServer.csprojAssemblyReference.cache
+D:\Unity\Draugen\Draugen\GameServer\GameServer\obj\Debug\netcoreapp3.0\GameServer.csproj.CoreCompileInputs.cache
+D:\Unity\Draugen\Draugen\GameServer\GameServer\obj\Debug\netcoreapp3.0\GameServer.AssemblyInfoInputs.cache
+D:\Unity\Draugen\Draugen\GameServer\GameServer\obj\Debug\netcoreapp3.0\GameServer.AssemblyInfo.cs
+D:\Unity\Draugen\Draugen\GameServer\GameServer\obj\Debug\netcoreapp3.0\GameServer.dll
+D:\Unity\Draugen\Draugen\GameServer\GameServer\obj\Debug\netcoreapp3.0\GameServer.pdb
+D:\Unity\Draugen\Draugen\GameServer\GameServer\obj\Debug\netcoreapp3.0\GameServer.genruntimeconfig.cache

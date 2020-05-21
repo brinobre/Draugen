@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ClientSend : MonoBehaviour
 {
-    private static void SendTCPData(Packet _packet )
+    private static void SendTCPData(Packet _packet)
     {
         _packet.WriteLength();
         Client.instance.tcp.SendData(_packet);
@@ -19,7 +19,7 @@ public class ClientSend : MonoBehaviour
     #region Packets
     public static void WelcomeReceived()
     {
-        using(Packet _packet = new Packet((int)ClientPackets.welcomeReceived))
+        using (Packet _packet = new Packet((int)ClientPackets.welcomeReceived))
         {
             _packet.Write(Client.instance.myId);
             _packet.Write(UIManager.instance.usernameField.text);
@@ -27,16 +27,20 @@ public class ClientSend : MonoBehaviour
             SendTCPData(_packet);
         }
     }
-    
-    public static void UDPTestReceived()
+
+    public static void PlayerMovement(bool[] _inputs)
     {
-        using(Packet _packet = new Packet((int)ClientPackets.udpTestReceived))
+        using (Packet _packet = new Packet((int)ClientPackets.playerMovement))
         {
-            _packet.Write("Received a UDP packet");
+            _packet.Write(_inputs.Length);
+            foreach (bool _input in _inputs)
+            {
+                _packet.Write(_input);
+            }
+            _packet.Write(GameManager.players[Client.instance.myId].transform.rotation);
 
             SendUDPData(_packet);
         }
     }
-
     #endregion
 }
